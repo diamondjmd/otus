@@ -22,7 +22,7 @@ The application reads the entire sequence from the standard input and displays a
  * pct90 – 90th percentile
  * pct95 – 95th percentile
 
-Stopping the sequence input is assumed by passing the EOF (End Of File) attribute.
+Stopping the sequence input is assumed by passing the EOF (End Of File) attribute.In Windows, this is done using the following set of commands: Ctrl+Z, Enter. On Linux this is done by pressing Ctrl+D.
 
 ### Example of the application:
 
