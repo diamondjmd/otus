@@ -4,12 +4,11 @@ project(05.homework)
 
 add_executable(statistics 
     statistics.cpp
-    Min.hpp
-    Max.hpp
-    Mean.hpp
-    StandardDeviation.hpp
-    Pct90.hpp
-    Pct95.hpp
+    Min.cpp
+    Max.cpp
+    Mean.cpp
+    StandardDeviation.cpp
+    Pct.cpp
 )
 
 set_target_properties(statistics PROPERTIES CXX_STANDARD 17 CXX_STANDARD_REQUIRED ON)

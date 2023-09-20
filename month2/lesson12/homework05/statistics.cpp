@@ -1,10 +1,9 @@
 #include <iostream>
-#include "Min.hpp"
-#include "Max.hpp"
-#include "Mean.hpp"
-#include "StandardDeviation.hpp"
-#include "Pct90.hpp"
-#include "Pct95.hpp"
+#include "Min.h"
+#include "Max.h"
+#include "Mean.h"
+#include "StandardDeviation.h"
+#include "Pct.h"
 
 int main() {
 
@@ -15,8 +14,8 @@ int main() {
 	statistics[index++] = new Max{};
 	statistics[index++] = new Mean{};
 	statistics[index++] = new StandardDeviation{};
-	statistics[index++] = new Pct90{};
-	statistics[index++] = new Pct95{};
+	statistics[index++] = new Pct{90};
+	statistics[index++] = new Pct{95};
 
 	
 
